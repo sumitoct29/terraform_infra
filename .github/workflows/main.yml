@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - main
+      - 'releases/**'
+jobs:
+  Terraform_Init:
+    name: Init
+    runs-on: Windows
+    steps: 
+    - name: Dhondhu maharaj
+      run: echo Dhondhu Maharaj
+
+    
